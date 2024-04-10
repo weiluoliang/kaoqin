@@ -50,6 +50,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version> <!-- 这是一个示例版本，请根据你需要的版本进行修改 -->
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
 
