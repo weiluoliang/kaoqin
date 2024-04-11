@@ -1,5 +1,6 @@
 package com.liang.entities;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.io.Serializable;
 
@@ -26,9 +27,9 @@ public class WorkApprovePO implements Serializable {
     @TableField("approve_type")
     private String approveType;
     @TableField("start_time")
-    private Date startTime;
+    private LocalDateTime startTime;
     @TableField("end_time")
-    private Date endTime;
+    private LocalDateTime endTime;
     @TableField("hours")
     private Double hours;
 
