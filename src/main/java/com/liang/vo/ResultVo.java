@@ -18,4 +18,11 @@ public class ResultVo <T>{
         resultVo.setData(data);
         return resultVo;
     }
+
+    public static <T> ResultVo<T> ok() {
+        ResultVo<T> resultVo = new ResultVo<>();
+        resultVo.setCode(200);
+        resultVo.setMsg("success");
+        return resultVo;
+    }
 }

@@ -23,4 +23,9 @@ public class WorkApproveController {
         return ResultVo.success(list);
     }
 
+    @RequestMapping("/syncData")
+    public ResultVo<Void> syncData(){
+        workApproveService.syncData();
+        return ResultVo.ok();
+    }
 }
